@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&display=swap');
+
+:root{
+    --navy: #05182E;
+    --ocean: #104D94;
+    --sky: #8FBBEA;
+    --midnight: #09294D;
+    --royal: #024AAC;
+    --bot: #033982;
+}
+
+.bg-banner{
+    background: url(assets/bg-banner.png);
+    background-size: cover;
+}
+
+.bg-olhar{
+    background: url(assets/bg-novo-olhar.png);
+    background-repeat: repeat;
+}
+
+.bg-quem{
+    background: url(assets/bg-banner-quem.png);
+    background-size: cover;
+}
+
+.line-container{
+    background: url(assets/Upgrade.png);
+    background-repeat: repeat;
+}
+
+.card{
+    background-image: linear-gradient(var(--navy), var(--bot));
+}
+
+.inner-card{
+    border: 2px #8FBBEA solid;
+}
