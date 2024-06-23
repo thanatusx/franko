@@ -13,13 +13,17 @@
     --bot: #033982;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
 .bg-banner{
-    background: url(assets/bg-banner.png);
+    background-image: url(assets/bg-banner.png);
     background-size: cover;
 }
 
 .bg-olhar{
-    background: url(assets/bg-novo-olhar.png);
+    background-image: url(assets/bg-novo-olhar.webp);
     background-repeat: repeat;
 }
 
@@ -29,7 +33,7 @@
 }
 
 .line-container{
-    background: url(assets/Upgrade.png);
+    background: url(assets/Upgrade.webp);
     background-repeat: repeat;
 }
 
@@ -39,4 +43,28 @@
 
 .inner-card{
     border: 2px #8FBBEA solid;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    width: 60rem;
+}
+
+li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    transform: rotate(45deg);
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border: 3px var(--ocean) solid;
 }
