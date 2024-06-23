@@ -18,7 +18,7 @@ body {
   }
 
 .bg-banner{
-    background-image: url(assets/bg-banner.png);
+    background-image: url(assets/bg-banner.webp);
     background-size: cover;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .bg-quem{
-    background: url(assets/bg-banner-quem.png);
+    background: url(assets/bg-banner-quem.webp);
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ li {
     position: relative;
     padding-left: 40px;
     margin-bottom: 10px;
-    width: 60rem;
+    width: 50rem;
 }
 
 li::before {
