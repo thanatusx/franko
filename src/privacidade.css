@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --navy: #05182E;
+    --ocean: #104D94;
+    --sky: #8FBBEA;
+    --midnight: #09294D;
+    --royal: #024AAC;
+    --bot: #033982;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: justify;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+}
+
+main{
+    margin: 0 10rem;
+}
+
+footer p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--royal);
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--sky);
+}
+
+a{
+    color: var(--sky);
+}
+
+p, li{
+    font-size: 1.25rem;
+    margin: 2rem;
+}
