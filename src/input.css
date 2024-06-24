@@ -54,7 +54,7 @@ li {
     position: relative;
     padding-left: 40px;
     margin-bottom: 10px;
-    width: 50rem;
+    width: 45rem;
 }
 
 li::before {
@@ -68,3 +68,5 @@ li::before {
     background-color: white;
     border: 3px var(--ocean) solid;
 }
+
+  
