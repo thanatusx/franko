@@ -11,6 +11,7 @@
     --midnight: #09294D;
     --royal: #024AAC;
     --bot: #033982;
+    --preto: #000;
 }
 
 body {
@@ -29,8 +30,7 @@ body {
 }
 
 .bg-quem{
-    background: url(assets/bg-banner-quem.webp);
-    background-size: cover;
+    background-image: linear-gradient(var(--midnight), var(--preto));
 }
 
 .line-container{
