@@ -70,6 +70,26 @@ li::before {
     border: 3px var(--ocean) solid;
 }
 
+@media (min-width: 768px) {
+    li{
+        position: relative;
+        padding-left: 40px;
+        margin-bottom: 10px;
+        width: 35rem;
+    }
+
+    li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 20%;
+        transform: rotate(45deg);
+        width: 1rem;
+        height: 1rem;
+        background-color: white;
+        border: 3px var(--ocean) solid;
+    }
+}
 @media (min-width: 1024px) {
     .bg-banner{
         background-image: url(assets/bg-banner.webp);
