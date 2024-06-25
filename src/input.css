@@ -24,7 +24,7 @@ body {
 
 .bg-olhar{
     background-image: url(assets/bg-novo-olhar-mb.webp);
-    background-size: cover;
+    background-size: auto;
     background-repeat: repeat;
 }
 
