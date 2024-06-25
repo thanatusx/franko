@@ -90,7 +90,7 @@ li::before {
         border: 3px var(--ocean) solid;
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
     .bg-banner{
         background-image: url(assets/bg-banner.webp);
         background-size: cover;
