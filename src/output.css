@@ -608,6 +608,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -742,6 +747,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .rounded-3xl {
@@ -897,6 +906,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-blue-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+
+.text-royal {
+  --tw-text-opacity: 1;
+  color: rgb(2 74 172 / var(--tw-text-opacity));
 }
 
 .shadow-royal {
@@ -1318,6 +1337,26 @@ li::before {
     width: 20rem;
   }
 
+  .lg\:w-60 {
+    width: 15rem;
+  }
+
+  .lg\:w-160 {
+    width: 40rem;
+  }
+
+  .lg\:w-20 {
+    width: 5rem;
+  }
+
+  .lg\:w-6 {
+    width: 1.5rem;
+  }
+
+  .lg\:w-108 {
+    width: 27rem;
+  }
+
   .lg\:max-w-7xl {
     max-width: 80rem;
   }
@@ -1420,6 +1459,11 @@ li::before {
   .xl\:my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+  }
+
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .xl\:ms-8 {
