@@ -30,7 +30,7 @@ body {
 }
 
 .bg-quem{
-    background-image: linear-gradient(var(--midnight), var(--preto));
+    background-color: var(--preto);
 }
 
 .line-container{
@@ -89,6 +89,7 @@ li::before {
         background-color: white;
         border: 3px var(--ocean) solid;
     }
+
 }
 @media (min-width: 1280px) {
     .bg-banner{
